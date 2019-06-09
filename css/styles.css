@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400');
+body{
+    background:#ad2831;
+}
+.bg-gradient-primary{
+    background:#800e13;
+}
+.container-fluid, #content{
+    background:#ad2831;
+}
+.chart-area{
+ height:29em;
+}
+
+.text-primary{
+    color:#800e13 !important;
+}
+.btn-primary{
+    border:none;
+    margin:5px;
+    background:#800e13 !important;
+
+}
+.btn-white{
+    border:none;
+    margin:5px;
+    background:#fff !important;
+    color:#800e13;
+    font-family: 'Quicksand';
+    box-shadow:none;
+    font-size:2em;
+    padding: 8px 30px;
+    border-radius:8px;
+
+}
+.v-align{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content:center;
+      
+}
+
+.main-head, .sub-head{
+    color:#fff;
+    font-size:5em;
+    font-weight:300;
+    font-family: "Quicksand";
+}
+.sub-head{
+    font-size:3em;
+    margin-bottom:-1em;
+}
+.cash-amount{
+    color:#800e13;
+    font-weight:400;
+    margin-top:-0.5em;
+    font-size:5em;
+    font-family:"Quicksand";
+}
+.payment{
+    padding-right:300px;
+}
